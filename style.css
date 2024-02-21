@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
-@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-    font-family: "Quattrocento", Georgia, 'Times New Roman', Times, serif;
+
+body
+{
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-    background: AntiqueWhite /*white*/;
-    overflow: scroll; /*timo*/
+    font-size: large;
+    background: antiquewhite;
+    overflow: scroll;
     margin-bottom: 300px;
 }
 
@@ -22,12 +26,12 @@ h2 {
 }
 
 h1 {
-    font-size: 50pt;
+    font-size: 2.8em;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 20pt;
+    font-size: 2em;
     font-style: italic;
     font-family: sans-serif;
     font-weight: lighter;
@@ -99,7 +103,7 @@ h2 {
 }
 
 p {
-    font-size: 17pt;
+    /*font-size: 17pt;*/
     color: #333;
     line-height: 1.7em;
     font-weight: lighter;
@@ -164,14 +168,13 @@ img {
     border-image-repeat: stretch;
     border-image-slice: 40;
     border-image-width: 20px 0 0 0;
-    border-image-outset: -30px;
 }
 
 /*
   Class applied to choice links
 */
 .choice a {
-    font-size: 17pt;
+    /*font-size: 17pt;*/
 }
 
 /* 
@@ -188,7 +191,8 @@ img {
 
 #controls {
     z-index: 4;
-    font-size: 9pt;
+    font-size: 0.7em;
+    /*font-size: 9pt;*/
     text-align: center;
     padding: 20px 5px 30px;
     position: fixed;
@@ -230,7 +234,7 @@ img {
     font-weight: bold;
     color: #312a24;
     padding: 1.5em 0.2em;
-    font-size: 20pt;
+    font-size: 1.8em /*20pt*/;
     font-style: normal;
     margin: 0 7% 50px 7%;
     background-image: url("images/line_ornamental.png");
@@ -246,8 +250,14 @@ img {
     color: #312a24;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 18pt;
+    font-size: 1.5em /*18pt*/;
     font-style: italic;
+}
+
+.Highlight {
+    font-family: "Courier Prime", "Courier New", Courier, monospace;
+    text-align: center;
+    line-height: normal;
 }
 
 
