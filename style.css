@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
-
-body
-{
+body {
     font-family: 'Quattrocento', Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: large;
@@ -20,12 +19,12 @@ body.switched {
 h1,
 h2 {
     text-align: center;
-    font-family: "Dawning of a New Day", "Quattrocento", Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
 
 h1 {
+    font-family: "Dawning of a New Day", "Quattrocento", Georgia, 'Times New Roman', Times, serif;
     font-size: 2.8em;
     margin-bottom: 10px;
 }
@@ -33,7 +32,6 @@ h1 {
 h2 {
     font-size: 2em;
     font-style: italic;
-    font-family: sans-serif;
     font-weight: lighter;
     color: #BBB;
 }
@@ -59,6 +57,7 @@ h2 {
     position: absolute;
     display: block;
     margin: 0;
+    margin-bottom: 100px;
     padding: 0;
     padding-bottom: 100px;
     -webkit-overflow-scrolling: touch;
@@ -68,7 +67,6 @@ h2 {
     width: 100%;
     top: 0;
     left: 0;
-    margin-bottom: 100px;
     background: #403833;
     background-image: url("images/background.png");
     background-size: cover;
@@ -129,7 +127,7 @@ strong {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 100%;
 }
 
 .container .hide {
@@ -192,7 +190,6 @@ img {
 #controls {
     z-index: 4;
     font-size: 0.7em;
-    /*font-size: 9pt;*/
     text-align: center;
     padding: 20px 5px 30px;
     position: fixed;
@@ -260,6 +257,16 @@ img {
     line-height: normal;
 }
 
+.challenge {
+    background-color: white;
+    border: solid black 2px;
+}
+
+.meme {
+    font-family: Workbench2, "Courier Prime", "Courier New", Courier, monospace;
+    font-size: 1.7em;
+    text-align: center;
+}
 
 /* 
   Dark Theme (Added in Inky 0.10.0)
